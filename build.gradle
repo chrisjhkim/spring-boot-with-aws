@@ -31,6 +31,10 @@ dependencies {
     implementation('org.springframework.boot:spring-boot-starter-data-jpa')
     implementation('com.h2database:h2')
     annotationProcessor 'org.projectlombok:lombok'
+    // 소셜 로그인 등 클라이언트 소셜 기능 구현 .
+    //  spring-security-oauth2-client , spring-security-oauth2-jose 관리
+    implementation('org.springframework.boot:spring-boot-starter-oauth2-client')
+
 
     implementation('org.springframework.boot:spring-boot-starter-mustache')
 
